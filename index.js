@@ -35,6 +35,7 @@ window.addEventListener("scroll", function(){
    
   });
   
+  
   //javascript for scroll to top button
   const scrollBtn = document.querySelector(".scrollToTop-btn");
   
@@ -47,8 +48,10 @@ window.addEventListener("scroll", function(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   });
+ 
   
-  //javascript for reveal website elements on scroll
+       
+  
   window.addEventListener("scroll", reveal);
   
   function reveal(){
