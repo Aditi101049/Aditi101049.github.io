@@ -67,3 +67,7 @@ window.addEventListener("scroll", function(){
       }
     }
   }
+  function contshow4(){
+    window.open(href="./img/Aditi_Patil_Resume.pdf"); 
+     }
+let my_cont_4=document.querySelector(".rez").addEventListener("click",contshow4)
